@@ -1,0 +1,4 @@
+# Tests diabled, invalid mocha version:
+# Error [ERR_REQUIRE_ESM]: Must use import to load ES Module
+#mocha test -R spec --require test/fixtures/xmlHttpRequest.cjs --exit --experimental-modules
+#mocha test -R spec --exit --experimental-modules

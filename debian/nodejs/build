@@ -1,0 +1,2 @@
+rollup -c
+cp fetch.js.flow dist/

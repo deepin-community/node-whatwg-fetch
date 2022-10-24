@@ -1,0 +1,6 @@
+version=4
+# https://github.com/github/fetch
+opts=\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-whatwg-fetch-$1/ \
+ https://github.com/github/fetch/tags .*/v?([\d\.]+).tar.gz
