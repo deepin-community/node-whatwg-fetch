@@ -7,7 +7,7 @@ Testsuite: autopkgtest-pkg-nodejs
 Build-Depends: debhelper-compat (= 13)
  , dh-sequence-nodejs
  , rollup
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Homepage: https://github.com/github/fetch#readme
 Vcs-Git: https://salsa.debian.org/js-team/node-whatwg-fetch.git
 Vcs-Browser: https://salsa.debian.org/js-team/node-whatwg-fetch
@@ -18,6 +18,8 @@ Architecture: all
 Depends: ${misc:Depends}
 Provides: libjs-whatwg-fetch (= ${binary:Version})
 Breaks: libjs-fetch (<< 3.5.0-2~)
+Replaces: libjs-fetch (<< 3.5.0-2~)
+Multi-Arch: foreign
 Description: window.fetch JavaScript polyfill
  The fetch() function is a Promise-based mechanism for programmatically making
  web requests in the browser. This project is a polyfill that implements a

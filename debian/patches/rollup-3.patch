@@ -1,0 +1,14 @@
+Description: fix for rollup 3
+Author: Yadd <babelouest@debian.org>
+Bug-Debian: https://bugs.debian.org/1022647
+Forwarded: not-needed
+Last-Update: 2022-10-26
+
+--- a/rollup.config.js
++++ b/rollup.config.js
+@@ -1,4 +1,4 @@
+-export default {
++module.exports = {
+   input: 'fetch.js',
+   output: {
+     file: 'dist/fetch.umd.js',
