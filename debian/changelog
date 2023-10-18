@@ -1,3 +1,17 @@
+node-whatwg-fetch (3.6.2-7) unstable; urgency=medium
+
+  * Team upload
+  * Duplicate Breaks field with Replaces (Closes: #1034933)
+
+ -- Yadd <yadd@debian.org>  Fri, 28 Apr 2023 07:13:09 +0400
+
+node-whatwg-fetch (3.6.2-6) unstable; urgency=medium
+
+  * Add fix for rollup 3 (Closes: #1022653)
+  * d/control: upgrade standards version to 4.6.1
+
+ -- Nicolas Mora <babelouest@debian.org>  Wed, 26 Oct 2022 11:11:40 -0400
+
 node-whatwg-fetch (3.6.2-5) unstable; urgency=medium
 
   * Team upload
